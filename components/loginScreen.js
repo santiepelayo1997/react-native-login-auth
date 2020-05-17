@@ -67,11 +67,9 @@ class Login extends React.Component {
         const { email, password , loading } = this.state;
         return (
            
-            <View  style={styles.container}>
+            <ImageBackground source={require('../assets/bg.png')} style={styles.container}>
            
-             
-                <Image style={styles.imageLogo}
-                source={require('../assets/logobicy.png')}/>
+       
                 <View style={styles.formWrapper}>
 
             
@@ -101,26 +99,27 @@ class Login extends React.Component {
                   <TouchableOpacity
                     activeOpacity={0.8}
                     style={{
-                        ...styles.signInBtn, backgroundColor: loading ? "#ddd" : "#d43"
+                        ...styles.signInBtn, backgroundColor: loading ? "#ddd" : "#42A5F5"
                     }}
                     onPress={() => this.loginFunction()}
                     disabled={loading}
                   >
-                      <Text style={styles.signInText}>
+                   <Text style={styles.signInText}>
                           {loading ? "Loading.." : "Sign In"}</Text>
                   </TouchableOpacity>
 
                   <View style={styles.signUpText}>
                         <Text>Don't have an account? {' '}
-                            <Text style={{color: '#d43'}} >
+                            <Text style={{color: '#42A5F5'}}
+                                     onPress={() => this.props.navigation.navigate('SignupScreen')}>
                                      Sign Up
                             </Text>
                        </Text>
-                 </View>
+                  </View>
     
                 </View>
            
-            </View>
+            </ImageBackground>
           
         )
     }
@@ -140,7 +139,7 @@ const styles = StyleSheet.create({
         marginBottom: 10
     },
     textInput: {
-        backgroundColor: "#ddd",
+        backgroundColor: "#eeeeee",
         height:40,
         paddingHorizontal: 10,
         color: "#333"
@@ -150,7 +149,7 @@ const styles = StyleSheet.create({
       marginBottom: 40,
       fontSize: 20,
       fontWeight: "bold",
-      color: "#333"
+      color: "#42A5F5",
     },
     signInBtn: {
         backgroundColor: "#fb7",

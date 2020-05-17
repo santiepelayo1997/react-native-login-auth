@@ -2,7 +2,6 @@ import React from 'react';
 import {View,StyleSheet,ActivityIndicator} from 'react-native';
 import { AsyncStorage } from 'react-native';
 
-
 class ActivityScreen extends React.Component{
 
     constructor(){
@@ -20,6 +19,7 @@ class ActivityScreen extends React.Component{
     }
     render(){
         return (
+            
             <View style={styles.container} >
                 <ActivityIndicator/>
             </View>

@@ -5,15 +5,20 @@ import Route from './components/routes.js'
 
 export default function App() {
   return (
-    <SafeAreaView  style={styles.container}>
-        <Route/>
-    </SafeAreaView>
+    <View  style={styles.container}>
+   
+    
+      
+            <Route/>
+       
+
+
+    </View>
   );
 }
 
 const styles = StyleSheet.create({
   container: {
     flex: 1,  
-    backgroundColor: '#fff',
   },
 });
