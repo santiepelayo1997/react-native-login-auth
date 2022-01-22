@@ -3833,9 +3833,9 @@ nan@^2.12.1:
   integrity sha512-isWHgVjnFjh2x2yuJ/tj3JbwoHu3UC2dX5G/88Cm24yB6YopVgxvBObDY7n5xW6ExmFhJpSEQqFPvq9zaXc8Jw==
 
 nanoid@^3.1.5:
-  version "3.1.7"
-  resolved "https://registry.yarnpkg.com/nanoid/-/nanoid-3.1.7.tgz#3705ccf590b6a51fbd1794fcf204ce7b5dc46c01"
-  integrity sha512-ruOwuatdEf4BxQmZopZqhIMudQ9V83aKocr+q2Y7KasnDNvo2OgbgZBYago5hSD0tCmoSl4flIw9ytDLIVM2IQ==
+  version "3.2.0"
+  resolved "https://registry.yarnpkg.com/nanoid/-/nanoid-3.2.0.tgz#62667522da6673971cca916a6d3eff3f415ff80c"
+  integrity sha512-fmsZYa9lpn69Ad5eDn7FMcnnSR+8R34W9qJEijxYhTbfOWzr22n1QxCMzXLK+ODyW2973V3Fux959iQoUxzUIA==
 
 nanomatch@^1.2.9:
   version "1.2.13"
@@ -4397,6 +4397,11 @@ react-native-asyncstorage@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/react-native-asyncstorage/-/react-native-asyncstorage-1.0.0.tgz#06f3af8172efc1b0c6feffc61588bafe5da22fef"
   integrity sha512-Lhn9uwduajit6hmDTR2ZAmuxXJWlEXlFgv2T+cMqRwpBRnl8whtvjhewwAJo8o3cHXtu9QkvRV7q1uh2LvEg3w==
+
+react-native-dropdown@0.0.6:
+  version "0.0.6"
+  resolved "https://registry.yarnpkg.com/react-native-dropdown/-/react-native-dropdown-0.0.6.tgz#f4b899b4082c4823340c7377fbe73bc01399148d"
+  integrity sha1-9LiZtAgsSCM0DHN3++c7wBOZFI0=
 
 react-native-gesture-handler@^1.6.1:
   version "1.6.1"
