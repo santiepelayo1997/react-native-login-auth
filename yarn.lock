@@ -3772,9 +3772,9 @@ minimatch@^3.0.4:
     brace-expansion "^1.1.7"
 
 minimist@^1.1.1, minimist@^1.2.0, minimist@^1.2.5:
-  version "1.2.5"
-  resolved "https://registry.yarnpkg.com/minimist/-/minimist-1.2.5.tgz#67d66014b66a6a8aaa0c083c5fd58df4e4e97602"
-  integrity sha512-FM9nNUYrRBAELZQT3xeZQ7fmMOBg6nWNmJKTcgsJeaLstP/UODVpGsr5OhXhhXg6f+qtJ8uiZ+PUxkDWcgIXLw==
+  version "1.2.6"
+  resolved "https://registry.yarnpkg.com/minimist/-/minimist-1.2.6.tgz#8637a5b759ea0d6e98702cfb3a9283323c93af44"
+  integrity sha512-Jsjnk4bw3YJqYzbdyBiNsPWHPfO++UGG749Cxs6peCu5Xg4nrena6OVxOYxrQTqww0Jmwt+Ref8rggumkTLz9Q==
 
 mixin-deep@^1.2.0:
   version "1.3.2"
@@ -4397,6 +4397,11 @@ react-native-asyncstorage@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/react-native-asyncstorage/-/react-native-asyncstorage-1.0.0.tgz#06f3af8172efc1b0c6feffc61588bafe5da22fef"
   integrity sha512-Lhn9uwduajit6hmDTR2ZAmuxXJWlEXlFgv2T+cMqRwpBRnl8whtvjhewwAJo8o3cHXtu9QkvRV7q1uh2LvEg3w==
+
+react-native-dropdown@0.0.6:
+  version "0.0.6"
+  resolved "https://registry.yarnpkg.com/react-native-dropdown/-/react-native-dropdown-0.0.6.tgz#f4b899b4082c4823340c7377fbe73bc01399148d"
+  integrity sha1-9LiZtAgsSCM0DHN3++c7wBOZFI0=
 
 react-native-gesture-handler@^1.6.1:
   version "1.6.1"
